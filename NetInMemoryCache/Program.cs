@@ -11,7 +11,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+// Database
+builder.Services.AddDbContext<ApplicationDbContext>
+    (o => o.UseInMemoryDatabase("ClientsDb"));
+// Register client service
+builder.Services.AddScoped<IClientService, ClientService>();
 
 var app = builder.Build();
 
