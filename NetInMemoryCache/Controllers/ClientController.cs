@@ -1,6 +1,4 @@
-using Bogus.DataSets;
 using Microsoft.AspNetCore.Mvc;
-using NetInMemoryCache.Models;
 using NetInMemoryCache.Services;
 
 namespace NetInMemoryCache.Controllers

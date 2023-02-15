@@ -1,8 +1,6 @@
-﻿using Bogus.DataSets;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using NetInMemoryCache.Infrastructure;
 using NetInMemoryCache.Models;
-using System.Diagnostics.CodeAnalysis;
 
 namespace NetInMemoryCache.Services
 {

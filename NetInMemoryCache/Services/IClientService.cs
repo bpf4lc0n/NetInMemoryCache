@@ -1,5 +1,4 @@
-﻿using Bogus.DataSets;
-using NetInMemoryCache.Models;
+﻿using NetInMemoryCache.Models;
 
 namespace NetInMemoryCache.Services
 {
