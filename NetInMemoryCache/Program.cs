@@ -16,6 +16,10 @@ builder.Services.AddDbContext<ApplicationDbContext>
     (o => o.UseInMemoryDatabase("ClientsDb"));
 // Register client service
 builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.Decorate<IClientService, ClientServiceInMemoryCache>();
+
+// In-Memory Cache
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
