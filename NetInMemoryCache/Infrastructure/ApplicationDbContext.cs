@@ -8,7 +8,6 @@ namespace NetInMemoryCache.Infrastructure
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            // Make sure the database is created, else do it
             this.Database.EnsureCreated();
         }
 
