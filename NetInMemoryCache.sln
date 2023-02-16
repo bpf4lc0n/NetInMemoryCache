@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetInMemoryCache", "NetInMemoryCache\NetInMemoryCache.csproj", "{326AF03E-2D24-4A88-B971-3DEE7D7861B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetInMemoryCache.Test", "NetInMemoryCache.Test\NetInMemoryCache.Test.csproj", "{F4C01CDF-271A-4915-84CB-44D1D7F6EBB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{326AF03E-2D24-4A88-B971-3DEE7D7861B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326AF03E-2D24-4A88-B971-3DEE7D7861B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326AF03E-2D24-4A88-B971-3DEE7D7861B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C01CDF-271A-4915-84CB-44D1D7F6EBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C01CDF-271A-4915-84CB-44D1D7F6EBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C01CDF-271A-4915-84CB-44D1D7F6EBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C01CDF-271A-4915-84CB-44D1D7F6EBB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
