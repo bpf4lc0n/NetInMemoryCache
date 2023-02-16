@@ -5,3 +5,5 @@
 /.vs
 /NetInMemoryCache/bin/Debug/net7.0
 /NetInMemoryCache/obj
+/NetInMemoryCache.Test/bin/Debug/net7.0
+/NetInMemoryCache.Test/obj
